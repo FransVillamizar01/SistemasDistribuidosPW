@@ -36,7 +36,7 @@ body {
 
 header {
     background-color: var(--rojo); 
-    color: var(--negro);
+    color: var(--blancoclarito);
     padding: 2rem;
     text-align: center;
 }
