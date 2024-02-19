@@ -1,0 +1,94 @@
+/* VARIABLES */
+:root {
+    --lilaclarito: #B695C0;
+    --lila: #6C4675;
+    --cian: #00FFFF;
+    --morado: #683475;
+    --negro: #000000;
+    --blanco: #FFFFFF;
+}
+
+/* GLOBALES */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* HACK PARA EL BOX MODEL */
+}
+
+/* HACK PARA EL BOX MODEL */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem; /* 1 rem = 10px */
+    font-family: 'Krub', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--negro); 
+}
+
+.container {
+    width: 95%; 
+    max-width: 1140px; 
+    margin: 0 auto; 
+}
+
+header {
+    background-color: var(--lilaclarito); 
+    padding: 2rem;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid var(--negro); 
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 16px;
+    transition: background-color 0.5s ease;
+    margin: 20px 50px; 
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+}
+
+button:hover {
+    color: var(--blanco);
+}
+
+button:first-of-type:hover {
+    background-color: var(--lila); 
+}
+
+button:last-of-type:hover {
+    background-color: var(--cian); 
+}
+
+.button-center {
+    display: flex;
+    justify-content: center;
+}
+
+.cucuta {
+    background-image: url('../img/EGS.jpg');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    height: 450px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+footer {
+    background-color: var(--morado); 
+    color: var(--blanco);
+    padding: 2rem;
+    margin-top: 3rem;
+    text-align: justify; 
+}
