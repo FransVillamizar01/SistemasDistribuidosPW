@@ -76,10 +76,10 @@ button:last-of-type:hover {
 }
 
 .Imagen {
-    width: 30%;
+    width: 30% !important;
     height: auto;
-    
 }
+
 .cucuta {
     background-image: url('../img/EGS.jpg');
     background-repeat: no-repeat;
