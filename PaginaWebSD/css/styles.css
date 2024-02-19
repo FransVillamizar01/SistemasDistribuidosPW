@@ -78,6 +78,9 @@ button:last-of-type:hover {
 .Imagen {
     width: 30% !important;
     height: auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
 }
 
 .cucuta {
