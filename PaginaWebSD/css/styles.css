@@ -5,7 +5,7 @@
     --cian: #00FFFF;
     --morado: #683475;
     --negro: #000000;
-    --blanco clarito: #FFFFFF;
+    --blancoclarito: #FFFFFF;
 }
 
 /* GLOBALES */
@@ -86,8 +86,8 @@ button:last-of-type:hover {
 }
 
 footer {
-    background-color: var(--morado); 
-    color: var(--blanco);
+    background-color: var(--blancoclarito); 
+    color: var(--negro);
     padding: 2rem;
     margin-top: 3rem;
     text-align: justify; 
