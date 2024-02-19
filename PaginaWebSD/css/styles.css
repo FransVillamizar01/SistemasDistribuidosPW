@@ -6,6 +6,7 @@
     --morado: #683475;
     --negro: #000000;
     --blancoclarito: #FFFFFF;
+    --rojo: #F93005;
 }
 
 /* GLOBALES */
@@ -34,7 +35,8 @@ body {
 }
 
 header {
-    background-color: var(--lilaclarito); 
+    background-color: var(--rojo); 
+    color: var(--negro);
     padding: 2rem;
     text-align: center;
 }
